@@ -13,29 +13,7 @@ from aws_cdk import (
 )
 
 # List of all the repos from GitHub that we are setting up pipelines for
-repos = ['ark_base',
-         'ark_base_java11_tomcat9',
-         'ark_base_java8_tomcat9',
-         'ark_base_java8',
-         'ark_base_java11',
-         'ark_snowbound',
-         'ark_activemq',
-         'ark_solr',
-         'ark_solr_exporter',
-         'ark_cloudconfig',
-         'ark_samba',
-         'ark_postfix',
-         'ark_alfresco',
-         'ark_pentaho',
-         'ark_pentaho_ee',
-         'ark_prometheus',
-         'ark_prometheus_nodeexp',
-         'ark_prometheus_alertman',
-         'ark_prometheus_pushgate',
-         'ark_google_cadvisor',
-         'ark_grafana_reporter',
-         'ark_grafana_imagerend',
-         'ark_grafana',
+repos = ['docker',
          ]
 
 # List of emails to subscribe to SNS topic notifications (ECR, CodeBuild, and CodePipeline failures)
